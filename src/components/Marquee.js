@@ -1,8 +1,8 @@
 import React from "react";
 
 function Marquee(props) {
-  const message = "hello";
-  return (   
+  const message = props.match.params.text;
+  return (
     <marquee>{message}</marquee>
   );
 }

@@ -1,5 +1,5 @@
 import React from "react";
-// import {Link} from "react-router-dom";
+import {Link} from "react-router-dom";
 
 function SideNav() {
   return (
@@ -8,7 +8,7 @@ function SideNav() {
         <li className="active">
           {/*
           <Link to="/"> <i className="fa fa-fw fa-dashboard" />
-            Dashboard 
+            Dashboard
           </Link>
           */}
         </li>
@@ -23,7 +23,7 @@ function SideNav() {
           </a>
         </li>
       </ul>
-    </div>);  
+    </div>);
 }
 
 export default SideNav;
